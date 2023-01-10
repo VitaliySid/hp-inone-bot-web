@@ -8,15 +8,18 @@ const EventRow = ({ item, setSelected }) => {
 
     return (
         item && <tr>
-            <td>{item.deviceName}</td>
-            <td>{item.type}</td>
-            <td>{item.eventDate}</td>
-            <td> <Button
+            <td>
+                {item.deviceName}
+                <Button
                 variant="link"
                 onClick={onClick}
             >
                 Просмотреть
-            </Button></td>
+            </Button>
+            </td>
+            <td>{item.type}</td>
+            <td>{item.eventDate}</td>
+           
         </tr>
     );
 };

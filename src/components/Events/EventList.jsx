@@ -6,6 +6,7 @@ import EventRow from './EventRow';
 import Modal from 'react-bootstrap/Modal';
 import EventItem from './EventItem';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 
 const EventList = () => {
     const [items, setItems] = useState([]);
@@ -36,13 +37,13 @@ const EventList = () => {
     }, [])
 
     return (<div>
+         <Container>
         <Table className="table-responsive-sm">
             <thead>
                 <tr>
                     <th className="text-wrap">ИСТОЧНИК</th>
                     <th className="text-wrap">ТИП</th>
                     <th className="text-wrap">ДАТА ФИКСАЦИИ</th>
-                    <th className="text-wrap"></th>
                 </tr>
             </thead>
             <tbody>
@@ -55,6 +56,7 @@ const EventList = () => {
                 ))}
             </tbody>
         </Table>
+        </Container>
         <EventModal 
         show={modalShow}
         onHide={() => setModalShow(false)}
