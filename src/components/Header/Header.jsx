@@ -9,12 +9,12 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     const { user, onClose } = useTelegram();
-
+    let username = user ? `${user.first_name} ${user.last_name}` : 'Гость'
     return (
         <Navbar expand={false}>
             <Container fluid>
                 <Navbar.Brand href="#">
-                    <p>{user && `{user.first_name} {user.last_name}`}</p>
+                    <p>{username}</p>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
                 <Navbar.Offcanvas

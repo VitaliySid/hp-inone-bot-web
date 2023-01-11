@@ -1,46 +1,164 @@
 {
     "items": [
         {
-            "id": "53327e2f-b75a-454a-b135-074972981e28",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-12-28T01:06:03.094526Z",
-            "registrationDate": "2022-12-28T01:06:03.094529Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"adssad\", \"description\": \"asdasd\"}",
-            "rowNumber": 35,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
+            "rowNumber": 1444958,
+            "id": "eb3b6405-e2e1-4085-8dd0-5be278f15ee7",
+            "eventDate": "2023-01-10T07:45:50.406193Z",
+            "registrationDate": "2023-01-10T07:45:46Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.8833,\\\"name\\\":\\\"sedan\\\"},\\\"color\\\":{\\\"confidence\\\":0.995605,\\\"name\\\":\\\"yellow\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.983886,\\\"name\\\":\\\"hyundai\\\"},\\\"model\\\":{\\\"confidence\\\":0.92595,\\\"name\\\":\\\"hyundai/solaris\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:45:46+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"b865fee6-986b-449e-ab71-56d11ff8f76e\",\"16e5158b-3e90-44cc-aa38-6e32cfc9ad88\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
         },
         {
-            "id": "e658da4b-85de-4836-ad90-7dae1767d7ac",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-12-28T00:58:47.158055Z",
-            "registrationDate": "2022-12-28T00:58:47.158059Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"sdad\", \"description\": \"asdasd\"}",
-            "rowNumber": 34,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
+            "rowNumber": 1444957,
+            "id": "87449de0-6101-488f-9d08-2cdb6bc3a0c6",
+            "eventDate": "2023-01-10T07:45:50.37067Z",
+            "registrationDate": "2023-01-10T07:45:49Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.673828,\\\"name\\\":\\\"suv\\\"},\\\"color\\\":{\\\"confidence\\\":0.975097,\\\"name\\\":\\\"black\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.984375,\\\"name\\\":\\\"toyota\\\"},\\\"model\\\":{\\\"confidence\\\":0.966904,\\\"name\\\":\\\"toyota/rav_4\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:45:49+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"c41d9667-4dc6-4def-b6cd-267530173fb8\",\"8f9f553c-cd11-4245-9aef-aeb692ab05fa\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
         },
         {
-            "id": "ff4e1156-6c70-4e88-a5ef-1f73f8714b00",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-12-12T16:54:44.188406Z",
-            "registrationDate": "2022-12-12T16:54:44.202074Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"fffgf\", \"description\": \"ddd\"}",
-            "rowNumber": 33,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
+            "rowNumber": 1444935,
+            "id": "1af7fd03-a9f0-4282-a683-55d983e834a6",
+            "eventDate": "2023-01-10T07:44:56.403303Z",
+            "registrationDate": "2023-01-10T07:44:55Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.796875,\\\"name\\\":\\\"sedan\\\"},\\\"color\\\":{\\\"confidence\\\":0.875976,\\\"name\\\":\\\"white\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.814453,\\\"name\\\":\\\"kia\\\"},\\\"model\\\":{\\\"confidence\\\":0.524038,\\\"name\\\":\\\"kia/cerato\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:44:55+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"13b93a99-8f37-4956-8d11-02e4a3aa8102\",\"ded9e8df-4245-49cd-9400-db8fc3d1ad71\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444934,
+            "id": "523feb28-1ebf-49a1-b355-26e534c0af48",
+            "eventDate": "2023-01-10T07:44:55.984448Z",
+            "registrationDate": "2023-01-10T07:44:54Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.85205,\\\"name\\\":\\\"crossover\\\"},\\\"color\\\":{\\\"confidence\\\":0.974609,\\\"name\\\":\\\"white\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.976074,\\\"name\\\":\\\"toyota\\\"},\\\"model\\\":{\\\"confidence\\\":0.932945,\\\"name\\\":\\\"toyota/auris\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:44:54+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"12e88c00-bea1-4dc5-b59f-e08d73cd89bb\",\"6bd92946-84fb-47fb-9357-e46c446cb98b\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444929,
+            "id": "c3a26a8f-dca5-4056-a32d-c74a3c047f09",
+            "eventDate": "2023-01-10T07:44:42.16644Z",
+            "registrationDate": "2023-01-10T07:44:35Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.914062,\\\"name\\\":\\\"minivan\\\"},\\\"color\\\":{\\\"confidence\\\":0.779296,\\\"name\\\":\\\"grey\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.436523,\\\"name\\\":\\\"peugeot\\\"},\\\"model\\\":{\\\"confidence\\\":0.882522,\\\"name\\\":\\\"peugeot/expert\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:44:35+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"32587b73-4060-45ab-ade7-2301f89a3056\",\"ef807422-1b28-4b3f-b014-43ede3f3e50d\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444911,
+            "id": "73ee6b4b-86f3-4775-b35b-1e52e9b86b13",
+            "eventDate": "2023-01-10T07:43:39.908662Z",
+            "registrationDate": "2023-01-10T07:43:38Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.808593,\\\"name\\\":\\\"sedan\\\"},\\\"color\\\":{\\\"confidence\\\":0.990234,\\\"name\\\":\\\"yellow\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.971679,\\\"name\\\":\\\"kia\\\"},\\\"model\\\":{\\\"confidence\\\":0.978156,\\\"name\\\":\\\"kia/optima\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:43:38+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"b47f6823-3596-45b0-8b85-eda25688a008\",\"adb875d0-d97d-46d8-b916-c69a9f021a6c\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444741,
+            "id": "efb4da5e-1b10-4b31-8a84-162a3c1546ee",
+            "eventDate": "2023-01-10T07:31:39.199925Z",
+            "registrationDate": "2023-01-10T07:31:37Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.824707,\\\"name\\\":\\\"crossover\\\"},\\\"color\\\":{\\\"confidence\\\":0.757812,\\\"name\\\":\\\"grey\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.975585,\\\"name\\\":\\\"toyota\\\"},\\\"model\\\":{\\\"confidence\\\":0.976849,\\\"name\\\":\\\"toyota/prius\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:31:37+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"aeacad57-f97d-4d05-b0d9-c911d562f6f7\",\"989ae845-b24b-48c6-b1d2-e62e3bf58523\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444647,
+            "id": "1790f3c9-fd7c-4de2-ac9d-a7075c6d5bf1",
+            "eventDate": "2023-01-10T07:22:51.22396Z",
+            "registrationDate": "2023-01-10T07:22:46Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.94873,\\\"name\\\":\\\"crossover\\\"},\\\"color\\\":{\\\"confidence\\\":0.458251,\\\"name\\\":\\\"grey\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.976074,\\\"name\\\":\\\"hyundai\\\"},\\\"model\\\":{\\\"confidence\\\":0.994203,\\\"name\\\":\\\"hyundai/getz\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:22:46+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"8d31aec0-287f-40e0-a7d8-f1345e68efe0\",\"1077f7f2-f6e3-4310-ac58-e4cdcfed4f88\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444646,
+            "id": "7fa2a905-aaa5-4be4-9dc3-2f7e26ace5f3",
+            "eventDate": "2023-01-10T07:22:51.134711Z",
+            "registrationDate": "2023-01-10T07:22:28Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.795898,\\\"name\\\":\\\"suv\\\"},\\\"color\\\":{\\\"confidence\\\":0.942871,\\\"name\\\":\\\"yellow\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.127807,\\\"name\\\":\\\"hyundai\\\"},\\\"model\\\":{\\\"confidence\\\":0.117906,\\\"name\\\":\\\"hyundai/santa_fe\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:22:28+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"cfd86598-20d9-4fb4-b8e9-7a0bb36570b3\",\"81cb24ab-8585-4f0e-9ecc-0833ffa751c9\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
+        },
+        {
+            "rowNumber": 1444645,
+            "id": "8c866e46-4158-499f-aec8-13319fdba704",
+            "eventDate": "2023-01-10T07:22:47.645536Z",
+            "registrationDate": "2023-01-10T07:22:37Z",
+            "name": "findface_car_detected",
+            "severity": "Normal",
+            "deviceName": "Parking",
+            "locations": [
+                "NeoGeo"
+            ],
+            "isRead": false,
+            "properties": "{\"message\":\"findface_car_detected\",\"description\":\"{\\\"confidence\\\":0.0,\\\"features\\\":{\\\"body\\\":{\\\"confidence\\\":0.843261,\\\"name\\\":\\\"minivan\\\"},\\\"color\\\":{\\\"confidence\\\":0.490234,\\\"name\\\":\\\"blue\\\"},\\\"license_plate_country\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_number\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"license_plate_region\\\":{\\\"confidence\\\":1.0,\\\"name\\\":\\\"unknown\\\"},\\\"make\\\":{\\\"confidence\\\":0.932617,\\\"name\\\":\\\"renault\\\"},\\\"model\\\":{\\\"confidence\\\":0.483457,\\\"name\\\":\\\"renault/scenic\\\"}}}\",\"deviceId\":\"cf1b8415-217a-4521-82db-415b4cd93adc\",\"info\":\"Some Info\",\"incidentTime\":\"2023-01-10T07:22:37+00:00\",\"customerId\":\"83615406-3777-46c8-96f8-2d47a38561c0\",\"fileIds\":[\"e3b0443b-e9ac-43c3-b6c0-9e5c720f436a\",\"f5e1416b-33c1-4cee-94f4-79b0a83bed16\"],\"fileUrls\":[]}",
+            "incidentId": "",
+            "externalTypeId": "findface_car_detected"
         },
         {
             "id": "da77f5ce-352e-4ffc-8ed7-deedf106a461",
@@ -51,7 +169,7 @@
             "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
             "eventDate": "2022-11-15T12:43:37.959945Z",
             "registrationDate": "2022-11-15T12:43:37.959947Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
+            "properties": "{\"imageId\": \"\", \"message\": \"тест\", \"description\": \"postman\"}",
             "rowNumber": 32,
             "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
             "deviceName": "События от пользователя"
@@ -65,78 +183,8 @@
             "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
             "eventDate": "2022-11-15T12:43:37.145702Z",
             "registrationDate": "2022-11-15T12:43:37.145704Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
+            "properties": "{\"imageId\": \"\", \"message\": \"тест\", \"description\": \"postman\"}",
             "rowNumber": 31,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
-        },
-        {
-            "id": "9250358f-9f05-4f59-a721-abdd583f11da",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-11-15T12:43:36.386181Z",
-            "registrationDate": "2022-11-15T12:43:36.386185Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
-            "rowNumber": 30,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
-        },
-        {
-            "id": "b2aacbf5-002b-469f-8bc4-d8c1f3935f1c",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-11-15T12:43:35.585893Z",
-            "registrationDate": "2022-11-15T12:43:35.585896Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
-            "rowNumber": 29,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
-        },
-        {
-            "id": "abac2d58-9372-4441-a285-267d8ea9d25d",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-11-15T12:43:34.754144Z",
-            "registrationDate": "2022-11-15T12:43:34.754147Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
-            "rowNumber": 28,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
-        },
-        {
-            "id": "3d5238b4-4775-4d66-9ecb-b1cf25afbdda",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-11-15T12:42:44.367265Z",
-            "registrationDate": "2022-11-15T12:42:44.367268Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
-            "rowNumber": 27,
-            "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
-            "deviceName": "События от пользователя"
-        },
-        {
-            "id": "3a9fbb5e-a5bf-4a3e-a1c7-45ddecaaa1bf",
-            "type": "user-event",
-            "severity": "info",
-            "deviceId": "4278390d-ed53-431a-bdca-73e1c7ea2f60",
-            "deviceGroupId": "cd740fb6-63b1-4b4f-8c39-2736f5139c6b",
-            "adapterId": "b6b08982-1448-4e4b-a7e7-6e40a5205235",
-            "eventDate": "2022-11-15T12:42:43.638574Z",
-            "registrationDate": "2022-11-15T12:42:43.638578Z",
-            "properties": "{\"imageId\": \"\", \"message\": \"тест 4\", \"description\": \"postman\"}",
-            "rowNumber": 26,
             "locationId": "cdd8dae0-451f-4e3c-9286-644d9e92b353",
             "deviceName": "События от пользователя"
         }

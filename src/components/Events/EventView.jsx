@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import EventItem from './EventItem';
+import EventTabs from './Tabs/EventTabs';
 import { useParams } from 'react-router-dom';
 
 const EventView = () => {
     let params = useParams();
-    const [eventInfo, setEventInfo] = useState({});
+    const [eventInfo, setEventInfo] = useState(null);
     const fetchData = async () => {
         let resp = await fetch('/events.json', {
             method: 'GET',
@@ -24,7 +24,7 @@ const EventView = () => {
     }, [])
 
     return (
-        eventInfo && <EventItem event={eventInfo} />
+        eventInfo && <EventTabs eventInfo={eventInfo} />
     );
 };
 

@@ -4,7 +4,7 @@ import { useCallback, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
 import EventRow from './EventRow';
 import Modal from 'react-bootstrap/Modal';
-import EventItem from './EventItem';
+import EventTabs from './Tabs/EventTabs';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
@@ -37,30 +37,30 @@ const EventList = () => {
     }, [])
 
     return (<div>
-         <Container>
-        <Table className="table-responsive-sm">
-            <thead>
-                <tr>
-                    <th className="text-wrap">ИСТОЧНИК</th>
-                    <th className="text-wrap">ТИП</th>
-                    <th className="text-wrap">ДАТА ФИКСАЦИИ</th>
-                </tr>
-            </thead>
-            <tbody>
-                {items.map((item) => (
-                    <EventRow
-                        key={item.id}
-                        item={item}
-                        setSelected={onView}
-                    />
-                ))}
-            </tbody>
-        </Table>
+        <Container>
+            <Table className="table-responsive-sm">
+                <thead>
+                    <tr>
+                        <th className="text-wrap">ИСТОЧНИК</th>
+                        <th className="text-wrap">ТИП</th>
+                        <th className="text-wrap">ДАТА ФИКСАЦИИ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {items.map((item) => (
+                        <EventRow
+                            key={item.id}
+                            item={item}
+                            setSelected={onView}
+                        />
+                    ))}
+                </tbody>
+            </Table>
         </Container>
-        <EventModal 
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-        event={selectedItem}
+        <EventModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            event={selectedItem}
         /></div>
     );
 }
@@ -79,7 +79,7 @@ const EventModal = (props) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <EventItem event={props.event} />
+                <EventTabs eventInfo={props.event} />
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide} className="btn-sm">OK</Button>
