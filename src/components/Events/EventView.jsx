@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 
 const EventView = () => {
     let params = useParams();
+    alert(JSON.stringify(params))
     const [eventInfo, setEventInfo] = useState(null);
     const fetchData = async () => {
         let resp = await fetch('/events.json', {
