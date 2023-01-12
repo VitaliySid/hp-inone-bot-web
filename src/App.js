@@ -8,7 +8,6 @@ import EventView from "./components/Events/EventView";
 
 function App() {
     const { onToggleButton, tg } = useTelegram();
-    alert(window.location.href)
     useEffect(() => {
         tg.ready();
     }, [])
