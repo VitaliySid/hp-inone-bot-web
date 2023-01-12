@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTelegram } from "../../hooks/useTelegram";
 import './Header.css';
 import Container from 'react-bootstrap/Container';
@@ -10,17 +10,24 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     const { user, onClose } = useTelegram();
     let username = user ? `${user.first_name} ${user.last_name}` : 'Гость'
+    const [show, setShow] = useState(false);
+    const toggleOffcanvas = () =>{
+        setShow((show) => !show);
+      };
+    
     return (
         <Navbar expand={false}>
             <Container fluid>
                 <Navbar.Brand href="#">
                     <p>{username}</p>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
+                <Navbar.Toggle onClick={toggleOffcanvas} aria-controls={`offcanvasNavbar-expand-${false}`} />
                 <Navbar.Offcanvas
                     id={`offcanvasNavbar-expand-${false}`}
                     aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
                     placement="end"
+                    show={show}
+                    onHide={toggleOffcanvas}
                 >
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
@@ -29,7 +36,7 @@ const Header = () => {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Link to='/'>События</Link>
+                            <Link onClick={toggleOffcanvas} to='/'>События</Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

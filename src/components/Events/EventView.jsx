@@ -14,7 +14,7 @@ const EventView = () => {
         });
 
         let jsonData = await resp.json()
-        let item = jsonData.items.filter(i=>i.id == params.id)[0]
+        let item = jsonData.items.filter(i=>i.id == params.eventId)[0]
 
         setEventInfo(item)
     }

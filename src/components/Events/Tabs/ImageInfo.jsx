@@ -8,19 +8,19 @@ import Image from "react-bootstrap/Image";
 const ImageInfo = ({ properties }) => {
 
     return (
-        Array.isArray(properties?.fileIds) && <Container>
-            <Row>
-                {
-                    properties?.fileIds.length > 0
-                        ? properties?.fileIds.map(img => <Container><Image key={img} src={"/"+img} fluid /></Container>)
-                        : <Col>
-                            <Form.Label column="sm">
-                                Нет данных фотоизображений
-                            </Form.Label>
-                        </Col>
-                }
-            </Row>
-        </Container>
+        Array.isArray(properties?.fileIds) && properties?.fileIds.length
+            ? <Container>
+                <Row>
+                    {
+                        properties?.fileIds.map(img => <Container key={img}><Image src={"/" + img} fluid /></Container>)
+                    }
+                </Row>
+            </Container>
+            : <Col>
+                <Form.Label column="sm">
+                    Нет данных фотоизображений
+                </Form.Label>
+            </Col>
     );
 };
 

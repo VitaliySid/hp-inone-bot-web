@@ -18,7 +18,7 @@ function App() {
             <Header />
             <Routes>
                 <Route index element={<EventList />} />
-                <Route path={"events/:id"} element={<EventView />} />
+                <Route path={"events/:eventId"} element={<EventView />} />
             </Routes>
         </div>
     );
